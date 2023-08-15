@@ -1,0 +1,38 @@
+# Ignorar la carpeta node_modules
+node_modules/
+
+# Ignorar los archivos de registro de errores
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar el archivo .env (si estás utilizando variables de entorno)
+.env
+
+# Ignorar archivos generados por IDEs o editores
+.vscode/
+.idea/
+
+# Ignorar archivos de configuración de sistema
+*.DS_Store
+
+# Ignorar archivos de caché de npm o yarn
+/.npm
+/.yarn
+
+# Ignorar archivos de caché de TypeScript
+*.tsbuildinfo
+
+# Ignorar archivos de compilación o build
+/build
+/dist
+/out
+
+# Ignorar archivos de caché de Jest
+.cache/
+
+# Ignorar archivos de respaldo de git
+*.bak
+
+# Ignorar archivos de respaldo
+*~
